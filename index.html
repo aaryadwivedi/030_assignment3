@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Restaurant online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>  
+    <div class="container">
+     <div class="selectbox">
+        <select name="item restaurant-dropdown restaurant"  id="restaurant">
+        <option value="">Select Your Order</option>
+      </select>
+     </div>
+      <br>
+  
+      <div class="tablebox">
+        <table id="table1" class="table table-light tab">
+        <tr>
+          <th>Name</th>
+          <td id="menuname"></td>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <td id="id"></td>
+        </tr>
+        <tr>
+          <th>Short Name</th>
+          <td id="sname"></td>
+        </tr>
+        <tr>
+          <th>Description</th>
+          <td id="descp"></td>
+        </tr>
+        <tr>
+          <th>Price Small</th>
+          <td id="psmall"></td>
+        </tr>
+        <tr>
+          <th>Price Large</th>
+          <td id="plarge"></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
